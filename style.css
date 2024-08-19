@@ -7,7 +7,12 @@
 }
 
 body {
-    background: url(./Assets/Images/coffee-background.jpg); 
+
+    background-image:linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), url(./Assets/Images/Coffee\ espresso\ template1.jpg);
+    color: white; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -19,16 +24,14 @@ nav {
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 40px;
+    display: inline-block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 80px;
+    height: 80px;
     margin-left: 50px;
-    font-size: 18px;
-    background: rgba(231, 229, 225, 0.7);
-    color: rgba(94, 64, 5);
-    border-radius: 10px;
+    margin-top: -25px;
+    
 }
 
 ul {
@@ -62,7 +65,7 @@ li a:hover {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 2%;
-    background-color: rgba(219, 213, 203, 0.7);
+    /* background-color: rgba(219, 213, 203, 0.7); */
 }
 
 .right {
@@ -89,6 +92,7 @@ li a:hover {
     height: 50px;
     background: none;
     border: 2px solid rgb(94, 64, 5);
+    color:rgb(94, 64, 5);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -98,4 +102,60 @@ li a:hover {
     align-items: center;
     width: 50%;
 }
+
+.heading {
+    /* background: rgba(231, 229, 225, 0.7); */
+    color:rgb(94, 64, 5);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2%; 
+}
+
+.coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    
+    /* background-color: rgba(219, 213, 203, 0.7); */
+}
+
+.card {
+    width: 230px;
+    height: 230px;
+    border: 2px solid rgb(94, 64, 5);
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgba(3, 3, 3, 0.495), rgba(8, 8, 8, 0.395)), url(./Assets/Images/card-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 6%;
+    animation: infinite ;
+}
+
+
+
+.img img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+
+.info {
+    width: 100%;
+    line-height: 30px;
+    
+
+}
+
+
 
