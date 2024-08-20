@@ -64,7 +64,8 @@ li a:hover {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 2%;
     /* background-color: rgba(219, 213, 203, 0.7); */
 }
 
@@ -73,7 +74,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;  
+    width: 700px;  
     color: rgb(94, 64, 5);
 }
 .right h1 {
@@ -96,11 +97,20 @@ li a:hover {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.right img {
+    width: 300px;
+}
 .left {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 700px;
+}
+
+.left img {
+    width: 550px;
+    height: 550px;
 }
 
 .heading {
@@ -137,7 +147,6 @@ li a:hover {
     margin-left: 50px;
     margin-right: 100px;
     margin-bottom: 6%;
-    animation: infinite ;
 }
 
 
@@ -153,9 +162,47 @@ li a:hover {
 .info {
     width: 100%;
     line-height: 30px;
-    
-
 }
 
+.info td {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
 
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
 
+.image {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    padding-right: 100px;
+}
+
+.text p {
+    font-size: 20px;
+    color: rgb(52, 38, 12);
+    
+}
