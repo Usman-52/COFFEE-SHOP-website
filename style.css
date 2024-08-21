@@ -306,3 +306,31 @@ li a:hover {
     margin-top: -70px;
     margin-bottom: 20px;
   }
+
+  /* ? FOOTER */
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    line-height: 30px;
+    padding: 20px;
+    margin-top: 10%;
+  }
+
+  .footer a {
+    color: rgb(255, 255, 255);
+  }
+
+  footer {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.495), rgba(0, 0, 0, 0.495)), url(./Assets/Images/Coffee_Beans_Footer1.png);
+    color: white;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
