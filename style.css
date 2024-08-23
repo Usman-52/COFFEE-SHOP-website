@@ -440,6 +440,8 @@ li a:hover {
     }
 }
 
+/* ! For Small Devices */
+
 @media screen and (max-width: 480px) {
 
     /* ? NAVIGATION BAR */
@@ -458,18 +460,17 @@ li a:hover {
     }
 
     li a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         width: 70px;
         height: 25px;
         background: rgba(231, 229, 225, 0.7);
-        margin-right: 40px;
-        font-size: 18px;
+        margin-right: 20px;
+        font-size: 15px;
         color: rgb(94, 64, 5);
         border-radius: 10px;
     }
 
+    /* ? Home Section */
     .home {
         flex-direction: column;
         justify-content: center;
@@ -485,7 +486,7 @@ li a:hover {
         flex-direction: column;
         width: 100%;  
         color: rgb(94, 64, 5);
-        margin-left: 50px;
+        margin-top: 6%;
     }
     .right h1 {
         font-size: 40px; 
@@ -500,38 +501,140 @@ li a:hover {
         margin-top: 2%;
         width: 100px;
         height: 50px;
-        background: none;
-        border: 2px solid rgb(94, 64, 5);
-        color:rgb(94, 64, 5);
-        border-radius: 10px;
-        cursor: pointer;
     }
     
-    .right img {
-        width: 20px;
-    }
     .left {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 700px;
+        width: 100%;
     }
     
     .left img {
-        width: 550px;
-        height: 550px;
+        width: 400px;
+        height: 400px;
     }
     
     .heading {
-        /* background: rgba(231, 229, 225, 0.7); */
-        color:rgb(94, 64, 5);
-        text-align: center;
-        text-decoration: underline;
         margin-top: 2%; 
+        margin-bottom: 20%;
     }
 
+     /* ? COFFEE SECTION */
+
+    .card {
+        width: 170px;
+        height: 180px;
+        margin-bottom: 20%;
+    }
+
+     /* ? Description */
     
+    .img img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: -50px;
+    }
+
+    .info {
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .info p {
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+    }
+
+    .description {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 6%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .image img {
+        width: 200px;
+        height: auto;
+    }
+    
+    .text {
+        width: 100%;
+        height: auto;
+        padding-left: 100px;
+    }
+    
+    .text p {
+        font-size: 20px;
+        color: rgb(52, 38, 12);
+        
+    }
+
+    /* ? COLD COFFEE SECTION*/
+    .c-card {
+        width: 170px;
+        height: auto;
+        margin-bottom: 15%;
+    }
+  
+    .c-img img {
+        width: 80px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .c-info {   
+        font-size: 17px;
+        font-weight: bold;  
+    }
+
+      /* ? BEANS SECTION*/
+    .b-card {
+        width: 170px;
+        height: 200px;
+        margin-bottom: 17%;
+    }
+  
+    .b-img img {
+        width: 150px;
+        height: 150px;
+        margin-top: -60px;
+        margin-bottom: 25px;
+    }
+
+     /* ? FOOTER */
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(255, 255, 255);
+        text-align: start;
+        line-height: 20px;
+        padding: 20px;
+        margin-top: 10%;
+    }
+
+    .privacy h3 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .privacy a {
+        font-size: x-small;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
 
 
-}
-    
+}    
